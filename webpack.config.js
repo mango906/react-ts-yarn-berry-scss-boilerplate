@@ -51,6 +51,14 @@ module.exports = {
         loader: "ts-loader",
       },
       {
+        test: /\.(png|jpe?g|gif|woff|woff2|ttf|svg|ico)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
+      {
         test: /\.(js|jsx)$/,
         use: ["babel-loader"],
       },
