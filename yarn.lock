@@ -6843,6 +6843,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"modern-css-reset@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "modern-css-reset@npm:1.4.0"
+  checksum: b515d1b669251ec767d948304386c74375da694355ae1508db06f2e79e271083925b6181f95ca988f58c6d749cde0648df7826b36e5494c32a623c2fd3b19476
+  languageName: node
+  linkType: hard
+
 "ms@npm:2.0.0":
   version: 2.0.0
   resolution: "ms@npm:2.0.0"
@@ -8113,6 +8120,7 @@ fsevents@~2.3.2:
     html-webpack-plugin: ^5.3.2
     husky: ^7.0.2
     lint-staged: ^11.2.3
+    modern-css-reset: ^1.4.0
     prettier: ^2.4.1
     react: ^17.0.2
     react-dom: ^17.0.2
